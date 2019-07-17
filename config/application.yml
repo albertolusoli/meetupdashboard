@@ -1,0 +1,40 @@
+# Add configuration values here, as shown below.
+#
+# pusher_app_id: "2954"
+# pusher_key: 7381a978f7dd7f9a1117
+# pusher_secret: abdc3b896a0ffb85d373
+# stripe_api_key: sk_test_2J0l093xOyW72XUYJHE4Dv2r
+# stripe_publishable_key: pk_test_ro9jV5SNwGb1yYlQfzG17LHK
+#
+# production:
+#   stripe_api_key: sk_live_EeHnL644i6zo4Iyq4v1KdV9H
+#   stripe_publishable_key: pk_live_9lcthxpSIHbGwmdO941O1XVU
+
+GMAIL_USERNAME: 'noreply@labrgo.com'
+GMAIL_PASSWORD: 'betterhire!'
+test_role: "Central Retail Assistant"
+
+SECRET_KEY_BASE: '0fe96124251e8fcbf6eef6f7f37e089460d4e96c28c1f815767e72571ef932e5fd3bf0f036ea77072df954e32fee9f813504d7a158ce11fead24b7e2662ff517'
+
+
+RDS_DB_NAME: mydb2
+ # pool: 5
+RDS_USERNAME: postgres
+
+
+#eb setenv SECRET_KEY_BASE=a8f6c599dce2a26a9d7a6a7f6e34fbbbd09cfb0e78b1dca778470b23911a8b3c27435c8d45d7e3cbdb151da82232b9b51a11536249778736e1fa3aa9d72a44de
+
+#eb setenv GMAIL_USERNAME=noreply@labrgo.com GMAIL_PASSWORD=betterhire!
+
+#eb setenv RDS_DB_NAME=labr RDS_USERNAME=labr1 RDS_PASSWORD=labr1prod RDS_HOSTNAME=labr0.cyp2emt33q1i.us-west-2.rds.amazonaws.com RDS_PORT=3306
+
+#heroku config:set GMAIL_USERNAME=Dewhoney.ventures@gmail.com
+
+#heroku config:set GMAIL_PASSWORD=bubbles!
+#heroku config:set RDS_PASSWORD=rain
+
+#heroku config:set GMAIL_USERNAME=Dewhoney.ventures@gmail.com
+#heroku config:add DATABASE_URL=mysql://user:pass@server:port/database_name
+#postgres://postgres:rain@206.167.182.128:5432/meetup_data
+
+#heroku config:add DATABASE_URL=postgres://postgres:rain@206.167.182.128:5432/meetup_data

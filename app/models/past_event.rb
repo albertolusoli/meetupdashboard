@@ -1,0 +1,2 @@
+class PastEvent < ApplicationRecord
+end
