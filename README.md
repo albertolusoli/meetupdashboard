@@ -1,24 +1,5 @@
-# README
+# Meetup Archiver: Dashboard
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The project was developed at Simon Fraser University by Alberto Lusoli and Frederik Lesage. This work was supported by the the SSHRC Institutional Grant Program: "Mapping the Vancouver Start up Economy".
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Thanks to DewHoney Ventures for their support in developing the project and to the Simon Fraser Research Computing Group for their help in releasing the code into the public domain. 
